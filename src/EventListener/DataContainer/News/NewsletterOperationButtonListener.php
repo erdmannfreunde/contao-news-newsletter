@@ -82,6 +82,7 @@ class NewsletterOperationButtonListener
             return false;
         }
 
+        /** @var Notification $notification */
         $notification = Notification::findByPk($newsArchive->nc_notification);
         if (null === $notification) {
             return false;

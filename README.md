@@ -4,14 +4,6 @@ You want to send a newsletter every single time a news will be published? Here y
 
 ## How-to
 
-
-### Requirements
-
-1. (notification_center)[https://github.com/terminal42/contao-notification_center] installed
-2. News module enabled
-3. Newsletter module enabled
-
-
 ### Configuration
 
 
