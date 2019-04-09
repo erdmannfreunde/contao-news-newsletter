@@ -1,0 +1,7 @@
+services:
+  erdmannfreunde.contao_news_newsletter.listener.data_container.news.newsletter_operation_button:
+    class: ErdmannFreunde\ContaoNewsNewsletterBundle\EventListener\DataContainer\News\NewsletterOperationButtonListener
+
+  erdmannfreunde.contao_news_newsletter.listener.data_container.news_archive.notification_choices:
+    class: ErdmannFreunde\ContaoNewsNewsletterBundle\EventListener\DataContainer\NewsArchive\NotificationChoicesListener
+    arguments: ['@database_connection']
