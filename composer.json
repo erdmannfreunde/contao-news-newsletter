@@ -1,0 +1,29 @@
+{
+  "name": "erdmannfreunde/contao-news-newsletter",
+  "description": "Send news entries as standalone newsletter via the Notification Center.",
+  "license": "LGPL-3.0-or-later",
+  "type": "contao-bundle",
+  "require": {
+    "php": "^7.1",
+    "contao/core-bundle": "^4.4",
+    "terminal42/notification_center": "^1.5"
+  },
+  "require-dev": {
+    "contao/manager-plugin": "^2.0"
+  },
+  "authors": [
+    {
+      "name": "Erdmann & Freunde",
+      "homepage": "https://erdmann-freunde.de",
+      "email": "moin@erdmann-freunde.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ErdmannFreunde\\ContaoNewsNewsletterBundle\\": "src/"
+    }
+  },
+  "extra" : {
+    "contao-manager-plugin": "ErdmannFreunde\\ContaoNewsNewsletterBundle\\ContaoManager\\Plugin"
+  }
+}
