@@ -2,6 +2,10 @@
 
 You want to send a newsletter every single time a news will be published? Here you go.
 
+
+> :warning: Please switch to the [terminal42/contao-news_newsletter](https://github.com/terminal42/contao-news_newsletter/) that should be fully compatible with this extension.
+
+
 ## How-to
 
 ### Configuration
