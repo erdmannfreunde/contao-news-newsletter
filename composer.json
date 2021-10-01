@@ -15,6 +15,9 @@
     "symfony/http-kernel": "^3.3 || ^4.0",
     "terminal42/notification_center": "^1.5"
   },
+  "suggest": {
+      "terminal42/contao-news_newsletter": "Please switch to the terminal42 extension that should be fully compatible"
+  },
   "require-dev": {
     "contao/manager-plugin": "^2.0"
   },
